@@ -13,7 +13,7 @@ import re
 
 load_dotenv()
 
-tavily_client = TavilyClient(api_key=os.getenv("TRAVILY_API_KEY"))  
+tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))  
 
 @tool
 def web_search(query:str) -> str:
